@@ -37,7 +37,7 @@ public class RobotContainer {
    * edu.wpi.first.wpilibj2.command.button.JoystickButton}.
    */
   private void configureButtonBindings() {
-    operatorController.a().whileTrue(new SetDriveSpeed(drivetrain));
+    operatorController.rightTrigger().whileTrue(new SetDriveSpeed(drivetrain));
   }
 
   /**
